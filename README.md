@@ -5,7 +5,9 @@ The Harmful Brain Activity Classification competition, hosted by Kaggle, aims to
 
 This repository contains 3 notebooks:
 •	Explanatory Data Analysis (EDA) for the training data.
+
 •	Building and Training The model.
+
 •	Inference on test unseen data (this step is executed on [Kaggle notebook](https://www.kaggle.com/code/mohammadmkanna/inference-hms/notebook))
 
 Throughout the development process, several strategies were explored that did not yield significant improvements: 
@@ -17,7 +19,7 @@ You can check the code [here]( https://www.kaggle.com/code/mohammadmkanna/eeg-sc
 
 •	Building 2 input model from EfficientNet blocks:
 
-The idea is from a paper published for OWL sound classification, However, the features utilized in the paper are spectrograms and MFCC features, which differ from those applicable in my case.
+The idea is from a [paper](https://www.researchgate.net/publication/355170426_A_Transfer_Learning_Strategy_for_Owl_Sound_Classification_by_Using_Image_Classification_Model_with_Audio_Spectrogram) published for OWL sound classification, However, the features utilized in the paper are spectrograms and MFCC features, which differ from those applicable in my case.
 
 •	Fine Tuned the model on Ideal cases:
 
