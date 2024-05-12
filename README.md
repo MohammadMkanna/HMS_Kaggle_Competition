@@ -1,12 +1,12 @@
 # HMS_Kaggle_Competition
 The Harmful Brain Activity Classification competition, hosted by Kaggle, aims to identify seizures and other patterns of harmful brain activity in critically ill patients through analysis of EEG signal data and its corresponding spectrograms. In this repository, I developed a classification model capable of detecting six types of harmful brain activities (seizures, LPD, GPD, LRDA, GRDA, and others) using only EEG time signal data. This was achieved by utilizing scalograms generated via Complex Wavelet Transform. The model achieved a public score of 0.4, evaluated using the KL divergence metric on Kaggle notebooks with unseen data.
-
+ 
 ![Model](https://github.com/MohammadMkanna/HMS_Kaggle_Competition/assets/158570470/c99db432-585e-4dcb-bfde-b5e148271278)
 
 This repository contains 3 notebooks:
 •	Explanatory Data Analysis (EDA) for the training data.
 •	Building and Training The model.
-•	Inference on test unseen data (this step is executed on Kaggle website)
+•	Inference on test unseen data (this step is executed on [Kaggle notebook](https://www.kaggle.com/code/mohammadmkanna/inference-hms/notebook))
 
 Throughout the development process, several strategies were explored that did not yield significant improvements: 
 
