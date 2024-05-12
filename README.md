@@ -1,4 +1,6 @@
 # HMS_Kaggle_Competition
+## Description
+
 The Harmful Brain Activity Classification competition, hosted by Kaggle, aims to identify seizures and other patterns of harmful brain activity in critically ill patients through analysis of EEG signal data and its corresponding spectrograms. In this repository, I developed a classification model capable of detecting six types of harmful brain activities (seizures, LPD, GPD, LRDA, GRDA, and others) using only EEG time signal data. This was achieved by utilizing scalograms generated via Complex Wavelet Transform. The model achieved a public score of 0.4, evaluated using the KL divergence metric on Kaggle notebooks with unseen data.
  
 ![Model](https://github.com/MohammadMkanna/HMS_Kaggle_Competition/assets/158570470/c99db432-585e-4dcb-bfde-b5e148271278)
@@ -11,7 +13,11 @@ This repository contains 3 notebooks:
 
 •	Inference on test unseen data (this step is executed on [Kaggle notebook](https://www.kaggle.com/code/mohammadmkanna/inference-hms/notebook))
 
-Throughout the development process, several strategies were explored that did not yield significant improvements: 
+## Prepare data
+
+To access the data, we can connect through the Kaggle [API](https://www.kaggle.com/docs/api) after creating an account. Then, by adjusting the directories in the code to their appropriate paths, we can run the notebooks. Alternatively, we can download the notebooks and run them on Kaggle.
+
+## Strategies did not work
 
 • Building a dataset of non-log scale scalogram images:
 
@@ -26,7 +32,7 @@ The idea is from a [paper](https://www.researchgate.net/publication/355170426_A_
 
 The dataset we possess includes ideal cases characterized by confident scores assigned to labeled classes, indicating widespread agreement among experts regarding specific classifications. Despite training the model with this data, no significant improvement was observed. However, it resulted in a certain degree of bias within the model.
 
-Areas for further investigation:
+## Areas for further investigation:
 
 • Change efficientV2B2 model to another model that contain attention layers (MaxVit for example which performed well as mentioned by one of the contributors).
 
