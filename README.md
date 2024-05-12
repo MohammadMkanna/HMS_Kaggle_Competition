@@ -4,6 +4,7 @@ The Harmful Brain Activity Classification competition, hosted by Kaggle, aims to
 ![Model](https://github.com/MohammadMkanna/HMS_Kaggle_Competition/assets/158570470/c99db432-585e-4dcb-bfde-b5e148271278)
 
 This repository contains 3 notebooks:
+
 •	Explanatory Data Analysis (EDA) for the training data.
 
 •	Building and Training The model.
