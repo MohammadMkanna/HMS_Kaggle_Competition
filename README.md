@@ -11,7 +11,9 @@ This repository contains 3 notebooks:
 
 •	Building and Training The model.
 
-•	Inference on test unseen data (this step is executed on [Kaggle notebook](https://www.kaggle.com/code/mohammadmkanna/inference-hms/notebook))
+•	Inference on test unseen data (this step is executed on [Kaggle notebook](https://www.kaggle.com/code/mohammadmkanna/inference-hms/notebook)).
+
+Please note: To gain insight into why the complex wavelet transform is beneficial for analyzing signal data, I recommend watching the following YouTube video: [Link](https://youtu.be/jnxqHcObNK4?si=VNr-sHFSGmq6-eaH)
 
 ## Prepare data
 
